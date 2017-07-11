@@ -1,0 +1,12 @@
+﻿Revert "xxx branch"
+
+This reverts commit b9d5e8b935a44515318def0b6ef9aa69c6b5d359.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	modified:   naver.html
+#	modified:   stylesheet.css
+#
+
