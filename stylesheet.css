@@ -33,10 +33,14 @@ header {
 #top_nav {
   float: right;
   width: 1100px;
+  margin: 0 auto;
   height: 21px;
   font-size: 11px;
   line-height: 22px;
   margin-bottom: 5px;
+  /*이 아래는 유저불량에 따른 float right 해결을 위한 불필요한 부분임*/
+  position: relative;
+  left: 570px;
 }
 
 #top_nav a:visited, #top_nav a:link {
@@ -161,7 +165,7 @@ header {
 
 main {
   width: 100%;
-  height: 1466px;
+  height: 1500px;
   padding: 4px 5px 5px 5px;
   background-color: #f2f3f5;
   border-top: 0.2px solid rgb(167, 167, 167);
@@ -225,13 +229,15 @@ main {
   background-color: rgb(31, 194, 22);
   float: right;
 }
-#pop{
+
+#pop {
   width: 78px;
   height: 34px;
   float: left;
   margin-left: 2px;
   margin-top: 16px;
 }
+
 .pop {
   width: 75px;
   height: 32px;
@@ -243,13 +249,41 @@ main {
   line-height: 32px;
   float: left;
 }
-.pop a{
+
+.pop a {
   color: #888;
 }
-#pop div:last-child{
-  border-top:none;
+
+#pop div:last-child {
+  border-top: none;
 }
 
+#form-login_option {
+  margin-left: 14px;
+}
+
+#form-login_option>input {
+  display: inline-block;
+  background-color: white;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #bcbcbc;
+  border-radius: 0 0 0 0;
+  cursor: pointer;
+}
+
+#div-login_option a {
+  font-size: 12px;
+  color: #888;
+  margin-left: 5px;
+  margin-top: 3px;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+}
+
+#div-login_option a:hover {
+  text-decoration: underline;
+}
 
 .underline:hover {
   text-decoration: underline;
@@ -297,6 +331,99 @@ main {
   height: 140px;
   margin: 4px 5px 5px 0px;
   float: left;
+}
+
+#day-div_top {
+  width: inherit;
+  height: 33px;
+  padding-left: 15px;
+  border-bottom: 1px solid #ebeef3;
+}
+
+#day-div_top-span_cal {
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 15px;
+  letter-spacing: -1px;
+  font-weight: bolder;
+}
+
+.day-div_top-span_topic {
+  font-size: 12px;
+  color: #888;
+}
+
+#day-div_top-span_baton {
+  font-size: 17px;
+}
+
+.day-botton {
+  width: 33px;
+  height: 11px;
+  padding: 6px 0 16px 0;
+  margin-left: 1px;
+  border-left: 1px solid #ebeef3;
+  text-align: center;
+}
+
+.day-div_top-span_order {
+  padding-top: 7px;
+  padding-right: 3px;
+  font-size: 13px;
+  color: #888;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.go_left {
+  position: relative;
+  left: -15px;
+}
+
+#day-div_last {
+  width: 300px;
+  height: 66px;
+  padding: 22px 15px 18px 15px;
+}
+
+.day-div_last-span_1 {
+  font-size: 12px;
+  color: #222;
+  padding-bottom: 5px;
+  line-height: 16px;
+}
+
+.day-div_last-span_2 {
+  font-size: 12px;
+  color: #2565d0;
+  padding-bottom: 5px;
+  line-height: 16px;
+}
+
+.day-div_last-span_3 {
+  font-size: 16px;
+  color: #222;
+  padding-left: 1px;
+  padding-bottom: 12px;
+  font-weight: 700;
+}
+
+.day-div_last-span_4 {
+  font-size: 16px;
+  color: #2565d0;
+  padding-left: 1px;
+  padding-bottom: 12px;
+  font-weight: 700;
+}
+.day-div_last-span_5{
+  color: #888;
+  font-size: 12px;
+  line-height: 16px;
+}
+.day-div_last-span_6{
+  color: #2565d0;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 #news_table {
@@ -406,4 +533,12 @@ footer {
 .margin {
   margin-left: auto;
   margin-right: auto;
+}
+
+.f-right {
+  float: right;
+}
+
+.f-left {
+  float: left;
 }
