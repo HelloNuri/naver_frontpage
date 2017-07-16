@@ -40,7 +40,7 @@ header {
   margin-bottom: 5px;
   /*이 아래는 유저불량에 따른 float right 해결을 위한 불필요한 부분임*/
   position: relative;
-  left: 570px;
+  left: 690px;
 }
 
 #top_nav a:visited, #top_nav a:link {
