@@ -83,7 +83,7 @@ header {
 #logo_section {
   width: 1100px;
   height: 96px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 #logo {
@@ -165,13 +165,14 @@ header {
 
 main {
   width: 100%;
-  height: 1500px;
+  height: 1470px;
   padding: 4px 5px 5px 5px;
   background-color: #f2f3f5;
   border-top: 0.2px solid rgb(167, 167, 167);
   margin-top: 10px;
   border-bottom: 0.2px solid rgb(167, 167, 167);
   position: relative;
+  top: 40px;
 }
 
 #ad_main {
@@ -181,7 +182,8 @@ main {
   height: 120px;
   margin: 4px 0px 5px 0px;
   float: left;
-  background-image: url('./image/heroes of the storm.jpg');
+  /*background-image: url('./image/heroes of the storm.jpg');*/
+  background-image: url(https://ssl.pstatic.net/tveta/libs/1159/1159927/b5abe06c4565483a40cc_20170720152835920.jpg);
   background-size: 720px 120px;
 }
 
@@ -257,7 +259,14 @@ main {
 #pop div:last-child {
   border-top: none;
 }
-
+#login-span{
+  width: 33px;
+  height: 15px;
+  border: 1px solid rgb(31, 194, 22);
+  color: rgb(31, 194, 22);
+  font-size: 9px;
+  font-weight: 900;
+}
 #form-login_option {
   margin-left: 14px;
 }
@@ -314,6 +323,10 @@ main {
   font-size: 15px;
   display: inline;
   font-weight: bold;
+}
+
+#N-div-a_title {
+  padding-left: 16px;
 }
 
 .new {
@@ -415,12 +428,14 @@ main {
   padding-bottom: 12px;
   font-weight: 700;
 }
-.day-div_last-span_5{
+
+.day-div_last-span_5 {
   color: #888;
   font-size: 12px;
   line-height: 16px;
 }
-.day-div_last-span_6{
+
+.day-div_last-span_6 {
   color: #2565d0;
   font-size: 12px;
   line-height: 16px;
@@ -434,18 +449,193 @@ main {
   height: 244px;
   margin: 4px 5px 5px 0px;
   float: left;
+  overflow: hidden;
 }
 
-#ad_nav1 {
+#NT-div_top {
+  width: 722px;
+  height: 31px;
   position: relative;
-  top: -55px;
-  left: 12px;
-  width: 332px;
-  height: 150px;
-  margin: 4px 5px 5px 0px;
-  background-image: url('./image/나무위키.png');
-  background-size: 332px 150px;
+  left: -1px;
+  top: -1px;
+  padding-left: 16px;
+  padding-top: 13px;
+}
+
+#NT-a_title {
+  font-size: 14px;
+  color: black;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-right: 4px;
+}
+
+#NT-a_all {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.NT-span_bar {
+  font-size: 15px;
+  color: #ebeef3;
+  margin: 2px 15px 0;
+}
+
+#NT-span_user {
+  color: #666;
+  letter-spacing: -1px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#NT-div_right {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  left: -3px;
+  top: -13px;
+  padding: 0 0 0 0;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+#NT-div_left {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  left: -3px;
+  top: -13px;
+  padding: 0 0 0 0;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+#NT-ul_main {
+  list-style: none;
   float: left;
+  position: relative;
+  left: -40px;
+  top: -30px;
+  width: inherit;
+}
+
+.NT-ul-li {
+  text-align: center;
+  width: 121px;
+  height: 24px;
+  padding: 21px 0 22px 0;
+  border: 1px solid #f1f3f6;
+  float: left;
+  display: list-item;
+}
+
+#NT1 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd17338859.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT2 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd154426359.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT3 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd173559874.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT4 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd14479875.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT5 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd173335676.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT6 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd145346617.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT7 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd162718792.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT8 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd16432873.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT9 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd172736175.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT10 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd145738195.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT11 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd162659528.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT12 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd144944309.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT13 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd143454437.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT14 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd172816434.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT15 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd173322105.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT16 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd15042554.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT17 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd173111263.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#NT18 {
+  background-image: url(https://s.pstatic.net/static/newsstand/up/2017/0424/nsd173124306.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #topic {
@@ -455,6 +645,161 @@ main {
   width: 738px;
   height: 882px;
   margin: 4px 5px 5px 0px;
+  float: left;
+}
+
+#T-div_top {
+  width: inherit;
+  height: 45px;
+  position: relative;
+  left: -1px;
+  top: -1px;
+}
+
+#T-div_top-div_list {
+  width: 44px;
+  height: 45px;
+  float: left;
+  border-right: 1px solid #dee3eb;
+  margin-right: 15px;
+}
+
+#T-div_top-ul_title {
+  list-style: none;
+  position: relative;
+  top: -15px;
+}
+
+.T-div_top-li {
+  color: #666;
+  font-size: 12px;
+  font-weight: bold;
+  width: auto;
+  height: 31px;
+  padding: 13px 7px;
+  margin-right: 10px;
+  float: left;
+}
+
+#T-div_right {
+  width: 42px;
+  height: 44px;
+  position: relative;
+  left: -3px;
+  top: -13px;
+  padding: 0 0 0 0;
+  font-size: 25px;
+}
+
+#T-div_left {
+  width: 42px;
+  height: 44px;
+  position: relative;
+  left: -3px;
+  top: -13px;
+  padding: 0 0 0 0;
+  font-size: 25px;
+}
+
+#T-div_main {
+  padding: 18px 2px 3px 16px;
+  width: 720px;
+  height: 816px;
+  float: left;
+  position: absolute;
+  top: 45px;
+}
+
+.T-div_main-div {
+  margin: 0 14px 19px 0;
+  float: left;
+}
+.T-div_main-article{
+  width: 166px;
+  height: 185px;
+}
+.T-div_main-article-img{
+  width: 166px;
+  height: 108px;
+  float: left;
+  background-size: 166px 108px;
+  background-repeat: no-repeat;
+}
+#T-div_main-div1 {
+  width: 166px;
+  height: 185px;
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0427/mobile_100702618804.png);
+}
+
+#T-div_main-div2 {
+  width: 346px;
+  height: 185px;
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/cropImg_346x185_100915565807410498.jpeg);
+}
+
+#T-div_main-div3 {
+  width: 146px;
+  height: 185px;
+}
+#T-div-article-img4{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/mobile_152135372509c.jpg);
+
+}
+#T-div-article-img5{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/cropImg_339x222_100912590014389616.jpeg);
+
+}
+#T-div-article-img6{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/mobile_152446348939c.jpg);
+
+}
+#T-div-article-img7{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/mobile_175424296235.jpg);
+
+}
+#T-div-article-img8{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/cropImg_339x222_100913174668863008.jpeg);
+}
+
+#T-div-article-img9{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/cropImg_339x222_100913160234187147.png);
+}
+
+#T-div-article-img10{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/mobile_15562637895c.jpg);
+}
+
+#T-div-article-img11{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/cropImg_222x145_100913859744863331.png);
+}
+
+#T-div-article-img12{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/cropImg_222x145_100913826685090397.jpeg);
+
+}
+#T-div-article-img13{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/cropImg_222x145_100913802130828283.jpeg);
+
+}
+#T-div-article-img14{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/mobile_153028829250c.jpg);
+
+}
+#T-div-article-img15{
+  background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0719/cropImg_339x222_100912856157457951.jpeg);
+
+}
+
+#ad_nav1 {
+  position: relative;
+  top: -55px;
+  left: 12px;
+  width: 332px;
+  height: 150px;
+  margin: 4px 5px 5px 0px;
+  /*background-image: url('./image/나무위키.png');*/
+  background-image: url(https://ssl.pstatic.net/tveta/libs/1169/1169137/5605b61b9e8a3c7b3e3c_20170720145035218.jpg);
+  background-size: 332px 150px;
   float: left;
 }
 
@@ -485,7 +830,8 @@ main {
   width: 332px;
   height: 130px;
   margin: 4px 5px 5px 0px;
-  background-image: url('./image/namu_Empire.jpg');
+  /*background-image: url('./image/namu_Empire.jpg');*/
+  background-image: url(https://ssl.pstatic.net/tveta/libs/1167/1167877/e415ca66d62d0960f321_20170706120001467_1.jpg);
   background-size: 332px 130px;
   float: left;
 }
