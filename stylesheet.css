@@ -730,7 +730,38 @@ main {
   height: 185px;
   background-image: url(https://s.pstatic.net/static/www/mobile/edit/2017/0427/mobile_100702618804.png);
 }
-
+#T-div_main-h3{
+  text-shadow:2px 2px 1px gray;
+  color:white;
+  display: inline-block;
+  margin: 20px 0 0px 20px;
+}
+#T-div_main-bar{
+  width: 13px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 17px 0 13px 20px;
+}
+#T-div_main-ul{
+  list-style: none;
+  position: relative;
+  left: -20px;
+  width: inherit;
+}
+.T-div_main-ul_li{
+  font-size: 12px;
+  padding-top: 4px;
+  width: 71px;
+  color: white;
+  text-shadow: 2px 0 1px gray;
+  float: left;
+}
+/*.T-div_main-ul_li:nth-child(2n+1){
+  float: left;
+}
+.T-div_main-ul_li:nth-child(2n){
+  float: right;
+}*/
 #T-div_main-div2 {
   width: 346px;
   height: 185px;
